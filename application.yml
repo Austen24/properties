@@ -1,4 +1,6 @@
-eureka:
+spring:
+  application:
+    name: Config-Default:
   instance:
     #instance-id: ${spring.application.name}:${random.uuid}
     prefer-ip-address: true
